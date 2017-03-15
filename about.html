@@ -1,31 +1,18 @@
 ---
-layout: page
-title: About
-subtitle: A Simple Jekyll Blog Theme.
-permalink: /about/
+layout: default
+title: "The high quality, completely customizable and 100% free blog template for Jekyll"
+description: ""
 ---
 
-<h2>About this Blog</h2>
-<p>A Simple Jekyll Blog Theme. </p>
-	<p><ul class="about-list">
-		<li><i class="fa fa-rss"></i><a href="{{ site.url }}{{ site.baseurl }}/feed.xml"> Rss</a></li>
-		<li><i class="fa fa-modx"></i> Total <span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-pulse"></i></span> Hits and <span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-pulse"></i></span> Visitors</li>
-	</ul></p>
-
-<h2>About me</h2>
-<p>A normal person just wanna see this world. </p>
-    <p><ul class="about-list">
-		<li>
-			<i class="fa fa-twitter"></i><a href="https://twitter.com/{{ site.twitter_username }}"> Twitter</a>
-		</li>
-		<li>
-			<i class="fa fa-github"></i><a href="https://github.com/{{ site.github_username }}"> Github</a>
-		</li>
-		<li>
-			<i class="fa fa-envelope"></i><a href="mailto:{{ site.email }}?subject=Hello&nbsp;{{ site.name }}"> Email</a>
-		</li>
-	</ul></p>
-
-	{% if site.skillstree %}
-	{% include skillstree.html %}
-	{% endif %}
+<div class="about reveal">
+  <img src="{% asset_path 'about.jpg' %}" alt="About Nielsen Ramon header image" />
+  <h1>About me</h1>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+</div>
