@@ -62,3 +62,6 @@ gems:
   - jemoji
 paginate_path: "/posts/page/:num/"
 permalink: posts/:slug
+
+tag_page_layout: tag_page
+tag_page_dir: tag
